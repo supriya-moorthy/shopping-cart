@@ -1,0 +1,469 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Shop</title>
+    <header><h1> WELCOME TO CHILL SPOT WEBSITE</h1></header>
+    
+    <style>
+      header {
+        background-color:gray;
+            padding: 15px;
+            text-align: center;
+
+      }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-colorb:gray;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+        nav ul li a:hover {
+            color: #ff6600;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        #menu, #flavour,product details, #about, #contact {
+            min-height: 300px;
+        
+        }
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+#about {
+    background-color:whitesmoke;
+    padding: 50px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#about h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    animation: popIn 0.5s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+
+}
+
+
+@keyframes popIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.about-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h2 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-text ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-text ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.about-text strong {
+    font-weight: bold;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+#flavours {
+    background-color: whitesmoke;
+    padding: 50px;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#flavours h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.flavour-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.flavour-item {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.flavour-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.flavour-item h2 {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.flavour-item p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+.product {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .product-details {
+            flex: 1;
+            padding: 20px;
+        }
+        .product-details h1 {
+            font-size: 2em;
+        }
+        .product-price {
+            font-size: 1.5em;
+            color:green;
+            margin: 10px 0;
+        }
+        .product-description {
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+        .buy-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: gray;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+        .buy-button:hover {
+            background-color: lightskyblue;
+        }
+
+
+
+#contact {
+    background-color: whitesmoke;
+    padding: 50px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:green;
+}
+
+        footer {
+            background-color: gray;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#flavour">Flavour</a></li>
+            <li><a href="#product details">product details</a></li>
+             <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="menu">
+      <div class="section-container"></div>
+        <h1>Our Menu</h1>
+        <img src="../images/logo2.png">
+        <p>Ice cream comes in a wide variety of flavors, each offering a unique taste experience. Here's a look at some popular and creative ice cream flavors:
+
+          Vanilla – A timeless classic, vanilla ice cream is creamy and sweet with a smooth, rich flavor. It's often the base for many sundaes and toppings, making it versatile and widely loved.
+          
+          Chocolate – Deep, rich, and indulgent, chocolate ice cream is a favorite among chocolate lovers. Made from cocoa or chocolate, it offers a luscious, velvety texture and a satisfying sweetness.
+          
+          Strawberry – Made with fresh strawberries or strawberry syrup, this flavor has a fruity, tangy sweetness that balances the creaminess of the ice cream. It's especially popular in summer.
+          
+          Mint Chocolate Chip – A refreshing mint base with chunks of chocolate throughout, this flavor combines cool mint with the crunch and richness of chocolate for a satisfying contrast.
+          
+          Cookies and Cream – Blending creamy vanilla ice cream with crushed chocolate sandwich cookies, this flavor is both crunchy and smooth, offering a delightful mix of textures.
+          
+          Salted Caramel – This flavor balances sweetness and saltiness, with a rich caramel swirl that melts into the creamy ice cream. It's perfect for those who love complex, contrasting flavors.
+          
+          Pistachio – Made with real pistachio nuts, this flavor has a subtle, nutty taste that’s slightly sweet and a bit savory, creating a creamy and crunchy experience.</p>
+          
+        
+        
+    </section>
+
+    <section id="flavour">
+      <h1>Our Flavours</h1>
+      <div class="section-container">
+        <img src="../images/ice3.png">
+      </div>
+      <h1>Our Flavours</h1>
+        <div class="flavour-container">
+            <div class="flavour-item">
+                <img src="../images/ice1.png">
+                <h2>Vanilla</h2>
+                <p>A timeless classic with a smooth, creamy texture and a rich, sweet flavor.</p>
+            </div>
+            <div class="flavour-item">
+              <img src="../images/ice1.png">
+                <h2>Chocolate</h2>
+                <p>Deep, rich chocolate ice cream made from the finest cocoa, perfect for chocolate lovers.</p>
+            </div>
+            <div class="flavour-item">
+              <img src="../images/ice1.png">
+           <h2>Strawberry</h2>
+                <p>Fresh strawberries blended into creamy ice cream, offering a fruity, tangy sweetness.</p>
+            </div>
+          </section>
+  <section id="product details" >
+        <h1>PRODUCT DETAILS</h1>
+    <div class="product">
+            <div class="product-details">
+                <h1>creamstory ice cream</h1>
+                <p class="product-price"> 499 Rupees</p>
+                <p class="product-description">
+                    colorfull and tasty with health consiousness!
+                </p>
+                <title>Button Link</title>
+                <button onclick="window.location.href='product details.html';">
+                    click here to order
+                </button>
+                <div class="product-details">
+                    <h1>club ice cream</h1>
+                    <p class="product-price"> 399 Rupees</p>
+                    <p class="product-description">
+                        colorfull and tasty with health consiousness!
+                    </p>
+                    <title>Button Link</title>
+    <button onclick="window.location.href='product details.html';">
+        click here to order
+    </button>
+                    <div class="product-details">
+                        <h1>magnum ice cream</h1>
+                        <p class="product-price"> 299 Rupees</p>
+                        <p class="product-description">
+                            colorfull and tasty with health consiousness!
+                        </p>
+                        <title>Button Link</title>
+                        <button onclick="window.location.href='product details.html';">
+                            click here to order
+                        </button>
+                        
+
+            </div>
+        </div>
+    </div>
+    </section>
+     <section id="about">
+        <h1>About Us</h1>
+        <div class="about-content">
+          <img src="../images/ice4.png">
+            
+          <div class="about-text">
+                <h2>Our Story</h2>
+                <p>Welcome to chill spot, where our passion for ice cream meets the joy of creating delightful, handcrafted treats. Established in 1999, our shop was born from a simple love of high-quality ingredients and innovative flavors.</p>
+                
+                <h2>Our Mission</h2>
+                <p>At chill spot, our mission is to deliver joy through every scoop of our ice cream. We strive to use the freshest local ingredients and create unique flavors that bring smiles to our customers' faces. Our commitment to quality and creativity is at the heart of everything we do.</p>
+                
+                <h2>Our Values</h2>
+                <ul>
+                    <li><strong>Quality:</strong> We use only the finest ingredients to ensure every scoop is perfect.</li>
+                    <li><strong>Creativity:</strong> Our flavor creations are inspired by traditional and modern tastes, always pushing boundaries.</li>
+                    <li><strong>Community:</strong> We believe in supporting local farmers and engaging with our community.</li>
+                    <li><strong>Sustainability:</strong> We are dedicated to environmentally friendly practices in all aspects of our business.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section id="contact">
+        
+        <p>We'd love to hear from you! Rate our ice creams taste.</p>
+        <form action="submit_form.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</body>
+</html>
+
+        <p>Reach out to us with your questions or feedback!</p>
+        
+    </section>
+
+    <footer>
+        <p>&copy; HOPE YOU HAD A GREAT TIME!</p>
+    </footer>
+
+</body>
+</html>

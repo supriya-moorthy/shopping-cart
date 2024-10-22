@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Order</title>
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 90%;
+}
+
+h1 {
+    text-align: center;
+    color:gray;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    width: 90%;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:gray;
+}
+
+ </style>
+
+    
+</head>
+<body>
+    <div class="container">
+        <h1>LETS ORDER!</h1>
+        <form action="submit_order.html" method="post"> 
+            <label for="flavour">Choose your flavour:</label>
+            <select id="flavour" name="flavour">
+                <option value="cream story">cream story</option>
+                <option value="club">club</option>
+                <option value="magnum">magnum</option>
+               
+            </select>
+
+           
+            <fieldset>
+                <legend>Select Toppings:</legend>
+                <label><input type="checkbox" name="toppings" value="sprinkles"> Sprinkles</label>
+                <label><input type="checkbox" name="toppings" value="chocolate chips"> Chocolate Chips</label>
+                <label><input type="checkbox" name="toppings" value="whipped cream"> Whipped Cream</label>
+                <label><input type="checkbox" name="toppings" value="cherry"> Cherry</label>
+            </fieldset>
+
+            
+            <fieldset>
+                <legend>Container:</legend>
+                <label><input type="radio" name="container" value="cone" checked> Cone</label>
+                <label><input type="radio" name="container" value="cup"> Cup</label>
+            </fieldset>
+
+            
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+        </form>  
+            <title>Button Link></title>
+                <button onclick="window.location.href='page2.html';">
+                    order now
+                </button>
+           
+        
+ </div>
+    
+</body>
+</html>
+
